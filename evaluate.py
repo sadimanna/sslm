@@ -525,7 +525,7 @@ axi_men_acc = 0.650'''
 
 sag_abn_acc, sag_acl_acc, sag_men_acc = sag_perf_df[['Accuracy']].values
 cor_abn_acc, cor_acl_acc, cor_men_acc = cor_perf_df[['Accuracy']].values
-axi_abn_acc, axi_acl_acc, axi-men_acc = axi_perf_df[['Accuracy']].values
+axi_abn_acc, axi_acl_acc, axi_men_acc = axi_perf_df[['Accuracy']].values
 
 print("Generating weights for Ensemble model...")
 
